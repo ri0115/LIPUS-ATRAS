@@ -62,4 +62,4 @@ $('body').addEventListener('click',e=>{let tr=e.target.closest('tr[data-code]');
 $('body').addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches('tr[data-code]')){e.preventDefault();openDetail(e.target.dataset.level,e.target.dataset.code)}});
 $('detailContent').addEventListener('click',e=>{let btn=e.target.closest('[data-detail-code]');if(btn)openDetail(btn.dataset.detailLevel,btn.dataset.detailCode)});
 $('detailClose').onclick=closeDetail;$('detailBackdrop').onclick=closeDetail;document.addEventListener('keydown',e=>{if(e.key==='Escape')closeDetail()});$('year').addEventListener('change',drawDetail);
-</script></body></html>
+</script><div class="creator-credit" style="padding:16px 24px 20px;text-align:right;font:11px/1.5 system-ui,-apple-system,sans-serif;letter-spacing:.04em;color:#8a929c;">Created by Ryutaro Inami</div></body></html>
